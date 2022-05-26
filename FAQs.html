@@ -1,0 +1,1272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eibioxs</title>
+
+  <!--
+    - favicon
+  -->
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="overlay" data-overlay></div>
+
+  <!--
+    - MODAL
+  -->
+
+  <div class="modal" data-modal>
+
+    <div class="modal-close-overlay" data-modal-overlay></div>
+
+    <div class="modal-content">
+
+      <button class="modal-close-btn" data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
+
+      <div class="newsletter-img">
+        <img src="./assets/images/newslatter.jpg" alt="subscribe newsletter" width="400" height="400">
+      </div>
+
+      <div class="newsletter">
+
+        <form action="#">
+
+          <div class="newsletter-header">
+
+            <h3 class="newsletter-title">Subscribe Newsletter.</h3>
+
+            <p class="newsletter-desc">
+              Subscribe the <b>Eibioxs</b> to get latest service and discount update.
+            </p>
+
+          </div>
+
+          <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+
+          <button type="submit" class="btn-newsletter">Subscribe</button>
+
+        </form>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!--
+    - NOTIFICATION TOAST
+  -->
+
+  <div class="notification-toast" data-toast>
+
+    <button class="toast-close-btn" data-toast-close>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="toast-banner">
+      <img src="./assets/images/products/dosen1.png" alt="Rose Gold Earrings" width="80" height="70">
+    </div>
+
+    <div class="toast-detail">
+
+      <p class="toast-message">
+        Sin baru saja konsultasi
+      </p>
+
+      <p class="toast-title">
+        Nama Dosen
+      </p>
+
+      <p class="toast-meta">
+        <time datetime="PT2M">2 Menit</time> lalu
+      </p>
+
+    </div>
+
+  </div>
+
+  <!--
+    - HEADER
+  -->
+
+  <header>
+
+    <div class="header-top">
+
+      <div class="container">
+
+        <ul class="header-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="header-alert-news">
+          <p>
+            <b>Gratis Konsultasi</b>
+            Bagi Pengguna Pertama !!
+          </p>
+        </div>
+
+        <div class="header-top-actions">
+
+          <select name="currency">
+
+            <option value="idr">IDR</option>
+            <option value="usd">USD</option>
+
+          </select>
+
+          <select name="language">
+
+            <option value="en-In">IN</option>
+            <option value="en-Us">EN</option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="#" class="header-logo">
+          <img src="./assets/images/logo/logoeibioxs.svg" alt="eibioxs logo" width="117" height="43">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Mau konsultasi apa......">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="header-user-actions">
+
+          <button class="action-btn">
+            <ion-icon name="person-outline"></ion-icon>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="heart-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+          <button class="action-btn">
+            <ion-icon name="bag-handle-outline"></ion-icon>
+            <span class="count">0</span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+
+          <li class="menu-category">
+            <a href="index.html" class="menu-title">Home</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Categories</a>
+
+            <div class="dropdown-panel">
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Akuntansi</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Skripsi</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Mata Kuliah</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Tentang Karir</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/bannr1.png" alt="headphone collection" width="250"
+                      height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Pendidikan SD</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Skripsi</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Mata Kuliah</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Tentang Karir</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/bannr2.png" alt="men's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Teknik Komputer</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Skripsi</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Mata Kuliah</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Tentang Karir</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/bannr3.png" alt="women's fashion" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+              <ul class="dropdown-panel-list">
+
+                <li class="menu-title">
+                  <a href="#">Manajemen</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Skripsi</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Mata Kuliah</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">Tentang Karir</a>
+                </li>
+
+                <li class="panel-list-item">
+                  <a href="#">
+                    <img src="./assets/images/bannr4.png" alt="mouse collection" width="250" height="119">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">About Us</a>
+
+            <ul class="dropdown-list">
+
+              <li class="dropdown-item">
+                <a href="aboutusprofile.html">Profile</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="aboutusvisimisi.html">Visi & Misi</a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="#">Team</a>
+              </li>
+
+            </ul>
+          </li>
+
+          <li class="menu-category">
+            <a href="blog.html" class="menu-title">Blog</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="#" class="menu-title">Daftar Jadi Dosen</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="https://wa.me/+6289522549829?text=Hallo%2C%20Saya%20Ingin%20Bertanya%20Dong%3F" class="menu-title">Contact</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="bag-handle-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn">
+        <a href="index.html"><ion-icon name="home-outline"></ion-icon></a>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="heart-outline"></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <a href="index.html" class="menu-title">Home</a>
+        </li>
+
+        <li class="menu-category">
+
+          <button class="accordion-menu" data-accordion-btn>
+            <p class="menu-title">About Us</p>
+
+            <div>
+              <ion-icon name="add-outline" class="add-icon"></ion-icon>
+              <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="submenu-category-list" data-accordion>
+
+            <li class="submenu-category">
+              <a href="aboutusprofile.html" class="submenu-title">Profile</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="aboutusvisimisi.html" class="submenu-title">Visi & Misi</a>
+            </li>
+
+            <li class="submenu-category">
+              <a href="#" class="submenu-title">Team</a>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="menu-category">
+          <a href="blog.html" class="menu-title">Blog</a>
+        </li>
+
+        <li class="menu-category">
+          <a href="#" class="menu-title">Daftar Jadi Dosen</a>
+        </li>
+
+        <li class="menu-category">
+          <a href="https://wa.me/+6289522549829?text=Hallo%2C%20Saya%20Ingin%20Bertanya%20Dong%3F" class="menu-title">Contact</a>
+        </li>
+
+      </ul>
+
+      <div class="menu-bottom">
+
+        <ul class="menu-category-list">
+
+          <li class="menu-category">
+
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Language</p>
+
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">IN</a>
+              </li>
+              <li>
+                <a href="#" class="submenu-title">EN</a>
+              </li>
+
+            </ul>
+
+          </li>
+
+          <li class="menu-category">
+            <button class="accordion-menu" data-accordion-btn>
+              <p class="menu-title">Currency</p>
+              <ion-icon name="caret-back-outline" class="caret-back"></ion-icon>
+            </button>
+
+            <ul class="submenu-category-list" data-accordion>
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">IDR</a>
+              </li>
+
+              <li class="submenu-category">
+                <a href="#" class="submenu-title">USD</a>
+              </li>
+
+            </ul>
+
+          </li>
+
+        </ul>
+
+        <ul class="menu-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <!--
+      - PRODUCT
+    -->
+
+    <div class="product-container">
+
+      <div class="container">
+
+
+        <!--
+          - SIDEBAR
+        -->
+
+        <div class="sidebar  has-scrollbar" data-mobile-menu>
+
+          <div class="sidebar-category">
+
+            <div class="sidebar-top">
+              <h2 class="sidebar-title">Category</h2>
+
+              <button class="sidebar-close-btn" data-mobile-menu-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+
+            <ul class="sidebar-menu-category-list">
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/accounting.png" alt="clothes" width="25" height="25"
+                      class="menu-title-img">
+
+                    <p class="menu-title">Akuntansi</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Skripsi</p>
+                      <data value="300" class="stock" title="Available Stock">1</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Mata Kuliah</p>
+                      <data value="60" class="stock" title="Available Stock">1</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Tentang Karir</p>
+                      <data value="50" class="stock" title="Available Stock">1</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/education.png" alt="" class="menu-title-img" width="25"
+                      height="25">
+
+                    <p class="menu-title">Pendidikan SD</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Skripsi</p>
+                      <data value="45" class="stock" title="Available Stock">0</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Mata Kuliah</p>
+                      <data value="75" class="stock" title="Available Stock">0</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Tentang Karir</p>
+                      <data value="35" class="stock" title="Available Stock">0</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/desktop.png" alt="clothes" class="menu-title-img" width="25"
+                      height="25">
+
+                    <p class="menu-title">Teknik Komputer</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Skripsi</p>
+                      <data value="46" class="stock" title="Available Stock">0</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Mata Kuliah</p>
+                      <data value="73" class="stock" title="Available Stock">0</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Tentang Karir</p>
+                      <data value="61" class="stock" title="Available Stock">0</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="sidebar-menu-category">
+
+                <button class="sidebar-accordion-menu" data-accordion-btn>
+
+                  <div class="menu-title-flex">
+                    <img src="./assets/images/icons/clipboard.png" alt="perfume" class="menu-title-img" width="20"
+                      height="20">
+
+                    <p class="menu-title">Manajemen</p>
+                  </div>
+
+                  <div>
+                    <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                    <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                  </div>
+
+                </button>
+
+                <ul class="sidebar-submenu-category-list" data-accordion>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Skripsi</p>
+                      <data value="12" class="stock" title="Available Stock">0</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Mata Kuliah</p>
+                      <data value="60" class="stock" title="Available Stock">0</data>
+                    </a>
+                  </li>
+
+                  <li class="sidebar-submenu-category">
+                    <a href="#" class="sidebar-submenu-title">
+                      <p class="product-name">Tentang Karir</p>
+                      <data value="50" class="stock" title="Available Stock">0</data>
+                    </a>
+                  </li>
+
+                </ul>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="product-showcase">
+
+            <h3 class="showcase-heading">best Dosen</h3>
+
+            <div class="showcase-wrapper">
+
+              <div class="showcase-container">
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/dosen1.png" alt="" width="70" 
+                      class="showcase-img">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">Bpk. Fabri Sos.</h4>
+                    </a>
+
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <del>Rp 150.000</del>
+                      <p class="price">Rp 75.000</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/dosen2.jpg" alt="men's hoodies t-shirt" class="showcase-img"
+                      width="70" >
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">Ibu. Tiwi, S.E</h4>
+                    </a>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <p class="price">Rp 75.000</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/dosen2.jpg" alt="girls t-shirt" class="showcase-img" width="70">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">Bpk. Nur, MM</h4>
+                    </a>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half-outline"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <p class="price">Rp 150.000</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="showcase">
+
+                  <a href="#" class="showcase-img-box">
+                    <img src="./assets/images/products/dosen2.jpg" alt="woolen hat for men" class="showcase-img" width="70">
+                  </a>
+
+                  <div class="showcase-content">
+
+                    <a href="#">
+                      <h4 class="showcase-title">Bpk. Ardi, S.Ak</h4>
+                    </a>
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                    <div class="price-box">
+                      <p class="price">Rp 150.000</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+        <div class="product-box">
+
+          <!--
+            - PRODUCT FEATURED
+          -->
+
+          <div class="product-featured">
+
+            <div class="showcase-wrapper has-scrollbar">
+
+              <div class="showcase-container">
+
+                <div class="showcase">
+
+                  <div class="showcase-content">
+
+                    <div class="product-featured">
+
+                        <h2 class="title">FAQs</h2>
+
+
+                    <li class="menu-category">
+
+                        <button class="accordion-menu" data-accordion-btn>
+                          <h4 class="menu-title">Apa itu Eibioxs?</h4>
+              
+                          <div>
+                            <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                          </div>
+                        </button>
+              
+                        <ul class="submenu-category-list" data-accordion>
+              
+                          <li class="submenu-category">
+                            <p class="submenu-title">Eibioxs adalah tempat marketplace dimana kami menjadi salah satu tempat bagi anda (Dosen atau yang baru lulus S1) yang ingin menambah penghasilan dengan cara menjadi pembimbing Tugas Akhir bagi mahasiswa yang mengalami kesulitan dalam mengerjakan tugas kuliah maupun skripsi.</p>
+                          </li>
+              
+                        </ul>
+              
+                      </li>
+
+                      <br>
+
+                      <li class="menu-category">
+
+                        <button class="accordion-menu" data-accordion-btn>
+                          <h4 class="menu-title">Cara Konsultasi?</h4>
+              
+                          <div>
+                            <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                          </div>
+                        </button>
+              
+                        <ul class="submenu-category-list" data-accordion>
+              
+                          <li class="submenu-category">
+                            <p class="submenu-title">Untuk anda yang ingin konsultasi dengan dosen anda dapat melakukan langkah berikut : 1. pilih dosen yang anda inginkan 2. Klik konsultasi maka akan mengarah ke whatsapp 3. Lalu anda melakukan pembayaran 4. Kemudian anda akan kami hubungkan dengan dosen yang telah dipilih.</p>
+                          </li>
+              
+                        </ul>
+              
+                      </li>
+
+                      <br>
+
+                      <li class="menu-category">
+
+                        <button class="accordion-menu" data-accordion-btn>
+                          <h4 class="menu-title">Cara daftar dospem</h4>
+              
+                          <div>
+                            <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                          </div>
+                        </button>
+              
+                        <ul class="submenu-category-list" data-accordion>
+              
+                          <li class="submenu-category">
+                            <p class="submenu-title">Anda tinggal klik daftar menjadi dosen pembimbing setelah itu mengisi data melalui google from setelah itu kami akan mengkonfirmasi.</p>
+                          </li>
+              
+                        </ul>
+              
+                      </li>
+
+                      <br>
+
+                      <li class="menu-category">
+
+                        <button class="accordion-menu" data-accordion-btn>
+                          <h4 class="menu-title">Apakaha ini gratis?</h4>
+              
+                          <div>
+                            <ion-icon name="add-outline" class="add-icon"></ion-icon>
+                            <ion-icon name="remove-outline" class="remove-icon"></ion-icon>
+                          </div>
+                        </button>
+              
+                        <ul class="submenu-category-list" data-accordion>
+              
+                          <li class="submenu-category">
+                            <p class="submenu-title">Iya, bagi kamu pengguna pertama akan langsung mendapatkan gratis konsultasi dengan dosen yang dipilih</p>
+                          </li>
+              
+                        </ul>
+              
+                      </li>
+                    
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                      </div>
+
+                    <div class="countdown-box">
+
+                      <div class="countdown">
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+  </main>
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-category">
+
+      <div class="container">
+
+        <h2 class="footer-category-title">Search Keyword</h2>
+
+        <div class="footer-category-box">
+
+          <h3 class="category-box-title">Akuntansi :</h3>
+
+          <a href="#" class="footer-category-link">Jurnal</a>
+          <a href="#" class="footer-category-link">Auditor</a>
+          <a href="#" class="footer-category-link">keuangan</a>
+          <a href="#" class="footer-category-link">laporan keuangan</a>
+          <a href="#" class="footer-category-link">skripsi keuangan</a>
+          <a href="#" class="footer-category-link">sistem informasi akuntansi</a>
+          <a href="#" class="footer-category-link">skripsi publik</a>
+          <a href="#" class="footer-category-link">akuntansi syariah</a>
+
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Komputer :</h3>
+        
+          <a href="#" class="footer-category-link">desain thinking</a>
+          <a href="#" class="footer-category-link">skripsi jurusan komputer</a>
+          <a href="#" class="footer-category-link">website</a>
+          <a href="#" class="footer-category-link">aplikasi</a>
+          <a href="#" class="footer-category-link">belajar coding</a>
+          <a href="#" class="footer-category-link">membuat website</a>
+          <a href="#" class="footer-category-link">aplikasi android</a>
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">Pendidikan :</h3>
+        
+          <a href="#" class="footer-category-link">guru sd</a>
+          <a href="#" class="footer-category-link">psikologi</a>
+          <a href="#" class="footer-category-link">tugas kuliah</a>
+          <a href="#" class="footer-category-link">pgsd</a>
+          <a href="#" class="footer-category-link">pendidikan guru</a>
+        </div>
+
+        <div class="footer-category-box">
+          <h3 class="category-box-title">manajemen :</h3>
+        
+          <a href="#" class="footer-category-link">bisnis</a>
+          <a href="#" class="footer-category-link">manajemen keuangan</a>
+          <a href="#" class="footer-category-link">marketing</a>
+          <a href="#" class="footer-category-link">skripsi manajemen</a>
+          <a href="#" class="footer-category-link">bisnis digital</a>
+          <a href="#" class="footer-category-link">digital marketing</a>
+          <a href="#" class="footer-category-link">dunia bisnis</a>
+          <a href="#" class="footer-category-link">skripsi manajemen keuangan</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Popular</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Skripsi</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Tugas Kuliah</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">About Us</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="aboutusprofile.html" class="footer-nav-link">Profile</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="aboutusvisimisi.html" class="footer-nav-link">Visi & Misi</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Team</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Info</h2>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Promo</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="FAQs.html" class="footer-nav-link">FAQ</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms & conditions</a>
+          </li>
+        
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Privacy Police</a>
+          </li>
+        
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="content">
+              Lampung, Lampung Tengah, Terbanggi Besar <br>Kode Pos : 34163
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+607936-8058" class="footer-nav-link">0895-2254-9829</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:example@gmail.com" class="footer-nav-link">eibioxs@gmail.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Follow Us</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <img src="./assets/images/payment.png" alt="payment method" class="payment-img">
+
+        <p class="copyright">
+          Copyright 2022 &copy; <a href="#">Eibioxs</a> all rights reserved.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
